@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+//adding a function
+int function()
+{
+	printf("function added by Adithya20-afk");
+}
 int main() {
     int n, isPrime = 1;
 
@@ -22,6 +26,7 @@ int main() {
     } else {
         printf("%d is not a prime number.\n", n);
     }
+    function();
 
     return 0;
 }
